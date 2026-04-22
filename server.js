@@ -5,7 +5,7 @@ const app = express();
 
 // --- DATABASE CONNECTION ---
 // Using the verified password for gloirebolia59_db_user
-const MONGO_URI = "mongodb+srv://gloirebolia59_db_user:fazilabolia@cluster0.6l5oydy.mongodb.net/blezzypay?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = "mongodb+srv://gloirebolia59_db_user:@cluster0.6l5oydy.mongodb.net/blezzypay?retryWrites=true&w=majority&appName=Cluster0";
 
 mongoose.connect(MONGO_URI)
     .then(() => console.log("✅ Database Connected to New Cluster"))
