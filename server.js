@@ -4,8 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // --- DATABASE CONNECTION ---
-const MONGO_URI = "mongodb+srv://Gloirebolia1995:fazilabolia1995@cluster0.bem8n8n.mongodb.net/blezzypay?retryWrites=true&w=majority";
-mongoose.connect(MONGO_URI).then(() => console.log("✅ Database Connected"));
+const MONGO_URI = "mongodb+srv://const MONGO_URI = "mongodb+srv://gloirebolia59_db_user:<fazilabolia1995>@cluster0.6l5oydy.mongodb.net/blezzypay?retryWrites=true&w=majority&appName=Cluster0";mongoose.connect(MONGO_URI).then(() => console.log("✅ Database Connected"));
 
 app.use(express.json({ limit: '10mb' }));
 app.use(express.urlencoded({ extended: true, limit: '10mb' }));
