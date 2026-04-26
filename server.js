@@ -6,8 +6,7 @@ const app = express();
 // =============================================================
 // ✅ DATABASE CONNECTION (Old User Records)
 // =============================================================
-const MONGO_URI = "mongodb+srv://Gloirebolia1995:Sheilla9611@cluster0.bem8n8n.mongodb.net/blezzypay?retryWrites=true&w=majority";
-
+const MONGO_URI = "mongodb+srv://gloirebolia59_db_user:fazilabolia1995@cluster0.6l5oydy.mongodb.net/blezzypay?retryWrites=true&w=majority&appName=Cluster0";
 mongoose.connect(MONGO_URI)
     .then(() => console.log("✅ Old Database Connected: User Records & Funds Accessible"))
     .catch(err => console.error("❌ Database Error:", err));
